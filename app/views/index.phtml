@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Collaboration Board</title>
+</head>
+<body>
+    <form action="collaboration" method="post">
+    <select name="ip" id="ip">
+        <?php foreach($id as $i){?>
+        <option value=""><?php echo "$i->inserted";?></option>
+        </select>
+        <textarea name="collaborarions" id="collaborations" cols="200" rows="50"></textarea>
+    </form>
+    
+</body>
+</html>
