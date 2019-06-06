@@ -20,8 +20,6 @@ class UsersController extends Controller
 	{
 	}
 
-	
-
 	public function addsubmitAction()
 	{
 		// get variables from POST
